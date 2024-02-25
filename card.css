@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container-card {
+  background-size: 250px;
+  background-position: 430px 100px;
+  border: 1px solid rgb(119, 118, 118);
+  border-radius: 10px 10px;
+  width: 450px;
+  height: 300px;
+  background-color: rgb(118, 211, 118);
+}
+
+.logotip {
+  background-color: rgb(93, 180, 53);
+  margin: 20px;
+  padding: 12px;
+  position: relative;
+  right: 50px;
+  color: white;
+  padding-left: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  width: 67%;
+  color: rgb(10, 10, 10);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.forms {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 67%;
+  color: rgb(17, 22, 17);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.foot {
+  justify-content: end;
+  width: 20%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 67%;
+  color: rgb(17, 22, 17);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  width: 90%;
+}
+
+.input-forma {
+  border: none;
+  border-bottom: 1px solid rgb(88, 85, 85);
+  background-color: rgb(214, 219, 224);
+  padding: 5px;
+  border-radius: 2px;
+}
+.input-forma-3 {
+  width: 90px;
+  border-bottom: 1px solid rgb(94, 92, 92);
+  background-color: rgb(214, 219, 224);
+  padding: 5px;
+  border-radius: 5px;
+}
